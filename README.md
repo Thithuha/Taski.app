@@ -5,9 +5,7 @@ Task Management App
 
 Back-end: Node.js and Typescript to implement 
 
-Front-end: Vue 3 to make it interactive & Tailwindcss for designing the app 
-
-with consistences styles.
+Front-end: Vue 3 to make it interactive & Tailwindcss for designing the app with consistences styles.
 
 Database: PostgreSQL to design better schema for improving and adding new features
 
