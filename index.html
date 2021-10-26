@@ -7,6 +7,12 @@
   <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
   <title>Document</title>
 
+<style>
+  input:checked+svg {
+    display: block;
+  }
+</style>
+
 </head>
 <body class="p-8 bg-gray-100">
   <div class="max-w-2xl m-auto">
@@ -17,20 +23,46 @@
   </div>
 
   <ul class="mt-8">
-    <li class="bg-white p-2 mb-2 rounded">
-      <input type="checkbox" name="task" id="">
-        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
-          <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
-        </svg>
-        Task 1
+    <li class="bg-white p-2 mb-2 shadow rounded">
+      <label class="flex justify-start items-center">
+        <div class="bg-white border-2 rounded h-6 w-6 border-gray-200 mr-2 flex-shrink-0 flex justify-center items-center ">
+          <input class="opacity-0 absolute" type="checkbox" name="task" id="">
+           <svg class="fill-current hidden w-4 h-4 text-green-500 pointer-events-none"xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 20 20">
+            <path d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+          </svg>
+        </div>
+          <div class="ml-2">
+          Task 1
+          </div>
+      </label>
     </li>
-    <li>
-      <input type="checkbox" name="task" id="">
-      Task 2
+
+
+    <li class="bg-white p-2 mb-2 shadow rounded">
+      <label class="flex justify-start items-center">
+        <div class="bg-white border-2 rounded h-6 w-6 border-gray-200 mr-2 flex-shrink-0 flex justify-center items-center ">
+          <input class="opacity-0 absolute" type="checkbox" name="task" id="">
+           <svg class="fill-current hidden w-4 h-4 text-green-500 pointer-events-none"xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 20 20">
+            <path d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+          </svg>
+        </div>
+          <div class="ml-2">
+          Task 2
+          </div>
+      </label>
     </li>
-    <li>
-      <input type="checkbox" name="task" id="">
-      Task 3
+    <li class="bg-white p-2 mb-2 shadow rounded">
+      <label class="flex justify-start items-center">
+        <div class="bg-white border-2 rounded h-6 w-6 border-gray-200 mr-2 flex-shrink-0 flex justify-center items-center ">
+          <input class="opacity-0 absolute" type="checkbox" name="task" id="">
+           <svg class="fill-current hidden w-4 h-4 text-green-500 pointer-events-none"xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 20 20">
+            <path d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+          </svg>
+        </div>
+          <div class="ml-2">
+          Task 3
+          </div>
+      </label>
     </li>
   </ul>
 </body>
